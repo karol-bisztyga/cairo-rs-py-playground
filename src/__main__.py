@@ -4,7 +4,7 @@ from cairo_rs_py import CairoRunner
 
 old_path = "compiled-contracts/simple-old.json"
 new_path = "compiled-contracts/simple-new.json"
-# new_path = "compiled-contracts/simple-new-hacked.json"
+new_path = "compiled-contracts/simple-new-hacked.json"
 
 if not os.path.exists(new_path):
     raise Exception(f"required file {new_path} doesn't exist, please, compile cairo programs")

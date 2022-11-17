@@ -8,6 +8,7 @@ echo "compiling new..."
 
 pushd starknet_0_10_1
 poetry run starknet-compile ../contracts/simple-new.cairo --output ../compiled-contracts/simple-new.json
+poetry run starknet-compile ../contracts/account.cairo --output ../compiled-contracts/account.json
 popd
 
 echo "compiling old..."
