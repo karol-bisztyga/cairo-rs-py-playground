@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cairo-rs-py-repro"
+version = "0.1.0"
+description = ""
+authors = ["Karol Bisztyga <karol.bisztyga@swmansion.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9.14, <3.10"
+cairo-rs-py = {path = "../cairo-rs-py"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

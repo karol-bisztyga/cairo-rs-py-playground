@@ -1,0 +1,20 @@
+[[package]]
+name = "cairo-rs-py"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "*"
+develop = false
+
+[package.source]
+type = "directory"
+url = "../cairo-rs-py"
+
+[metadata]
+lock-version = "1.1"
+python-versions = ">=3.9.14, <3.10"
+content-hash = "b4a46e16486fa3eb22dac08c0ab608d56fcc58bbc04e3512c39567f5e26b511d"
+
+[metadata.files]
+cairo-rs-py = []
