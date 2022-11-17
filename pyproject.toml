@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.9.14, <3.10"
-cairo-rs-py = {path = "../cairo-rs-py"}
+cairo-rs-py = {path = "cairo-rs-py"}
 
 
 [build-system]

@@ -1,0 +1,6 @@
+[submodule "cairo-rs"]
+	path = cairo-rs
+	url = https://github.com/lambdaclass/cairo-rs.git
+[submodule "cairo-rs-py"]
+	path = cairo-rs-py
+	url = https://github.com/lambdaclass/cairo-rs-py.git
